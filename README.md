@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to the definition of the `Eq` and `Show` instances for the `Maybe` type in Haskell. The issue arises from how type checking interacts with the comparison of `Maybe` values of different underlying types.  The `bug.hs` file contains the buggy code; `bugSolution.hs` shows a safer alternative.
